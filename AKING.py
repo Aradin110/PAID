@@ -1,2 +1,2 @@
 import AKING
-AKING.Sub()
+AKING.MrAking()

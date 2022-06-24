@@ -81,7 +81,7 @@ def MrAking():
 				print("(!) Please Select Correct Option")
 				exit()
 			if key in ["1", "01"]:
-                                import SSB
+				import SSB
 				SSB.menu()
 			if key in ["2","02"]:
 				dz._login()

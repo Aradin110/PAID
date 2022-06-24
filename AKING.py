@@ -15,7 +15,7 @@ try:
 except ImportError:
 	print('\n [×] Bs4 module not installed!...\n')
 	os.system('pip install bs4')
-import dz,SSB
+import dz
 try:
 	user_ip = requests.get("http://ip-api.com/json/").json()["query"]
 except:
@@ -81,7 +81,8 @@ def MrAking():
 				print("(!) Please Select Correct Option")
 				exit()
 			if key in ["1", "01"]:
-				SSB
+                                import SSB
+				SSB.menu()
 			if key in ["2","02"]:
 				dz._login()
 			if key in ['3','03']:

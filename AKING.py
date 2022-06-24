@@ -15,7 +15,7 @@ try:
 except ImportError:
 	print('\n [×] Bs4 module not installed!...\n')
 	os.system('pip install bs4')
-import dz
+import dz,os,requests
 try:
 	user_ip = requests.get("http://ip-api.com/json/").json()["query"]
 except:

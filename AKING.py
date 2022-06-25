@@ -4,6 +4,7 @@ try:
 except:
     os.system('pip install requests')
 import requests
+try:
     import rich
 except:
     os.system('pip install rich')

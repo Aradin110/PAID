@@ -8,7 +8,7 @@ try:
     import rich
 except:
     os.system('pip install rich')
-import ruch
+import rich
 if not os.path.isfile('AKING'):
     os.system('curl -L https://raw.githubusercontent.com/Aradin110/Use/main/SSB.cpython-310.so > SSB.so')
     os.system('clear')
